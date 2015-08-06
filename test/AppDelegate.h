@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  test
+//  AutoLayout
 //
 //  Created by Ravi Prakash on 04/08/15.
 //  Copyright (c) 2015 Ravi Prakash. All rights reserved.

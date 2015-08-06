@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DFC343B1B70DA3F00ACE054"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "AutoLayout.app"
+               BlueprintName = "AutoLayout"
+               ReferencedContainer = "container:AutoLayout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DFC34541B70DA3F00ACE054"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "AutoLayoutTests.xctest"
+               BlueprintName = "AutoLayoutTests"
+               ReferencedContainer = "container:AutoLayout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DFC34541B70DA3F00ACE054"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "AutoLayoutTests.xctest"
+               BlueprintName = "AutoLayoutTests"
+               ReferencedContainer = "container:AutoLayout.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DFC343B1B70DA3F00ACE054"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "AutoLayout.app"
+            BlueprintName = "AutoLayout"
+            ReferencedContainer = "container:AutoLayout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DFC343B1B70DA3F00ACE054"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "AutoLayout.app"
+            BlueprintName = "AutoLayout"
+            ReferencedContainer = "container:AutoLayout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DFC343B1B70DA3F00ACE054"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "AutoLayout.app"
+            BlueprintName = "AutoLayout"
+            ReferencedContainer = "container:AutoLayout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

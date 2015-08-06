@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DFC343C1B70DA3F00ACE054 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC343C1B70DA3F00ACE054 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFC34401B70DA3F00ACE054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFC34411B70DA3F00ACE054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DFC34431B70DA3F00ACE054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		9DFC344A1B70DA3F00ACE054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFC344C1B70DA3F00ACE054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DFC344F1B70DA3F00ACE054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9DFC34551B70DA3F00ACE054 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC34551B70DA3F00ACE054 /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFC345A1B70DA3F00ACE054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFC345B1B70DA3F00ACE054 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,8 +72,8 @@
 		9DFC343D1B70DA3F00ACE054 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DFC343C1B70DA3F00ACE054 /* test.app */,
-				9DFC34551B70DA3F00ACE054 /* testTests.xctest */,
+				9DFC343C1B70DA3F00ACE054 /* AutoLayout.app */,
+				9DFC34551B70DA3F00ACE054 /* AutoLayoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DFC343B1B70DA3F00ACE054 /* test */ = {
+		9DFC343B1B70DA3F00ACE054 /* AutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DFC345F1B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 9DFC345F1B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "AutoLayout" */;
 			buildPhases = (
 				9DFC34381B70DA3F00ACE054 /* Sources */,
 				9DFC34391B70DA3F00ACE054 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = AutoLayout;
 			productName = test;
-			productReference = 9DFC343C1B70DA3F00ACE054 /* test.app */;
+			productReference = 9DFC343C1B70DA3F00ACE054 /* AutoLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9DFC34541B70DA3F00ACE054 /* testTests */ = {
+		9DFC34541B70DA3F00ACE054 /* AutoLayoutTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DFC34621B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 9DFC34621B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */;
 			buildPhases = (
 				9DFC34511B70DA3F00ACE054 /* Sources */,
 				9DFC34521B70DA3F00ACE054 /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				9DFC34571B70DA3F00ACE054 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = AutoLayoutTests;
 			productName = testTests;
-			productReference = 9DFC34551B70DA3F00ACE054 /* testTests.xctest */;
+			productReference = 9DFC34551B70DA3F00ACE054 /* AutoLayoutTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DFC34371B70DA3F00ACE054 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 9DFC34371B70DA3F00ACE054 /* Build configuration list for PBXProject "AutoLayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DFC343B1B70DA3F00ACE054 /* test */,
-				9DFC34541B70DA3F00ACE054 /* testTests */,
+				9DFC343B1B70DA3F00ACE054 /* AutoLayout */,
+				9DFC34541B70DA3F00ACE054 /* AutoLayoutTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		9DFC34571B70DA3F00ACE054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DFC343B1B70DA3F00ACE054 /* test */;
+			target = 9DFC343B1B70DA3F00ACE054 /* AutoLayout */;
 			targetProxy = 9DFC34561B70DA3F00ACE054 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoLayout;
 			};
 			name = Debug;
 		};
@@ -361,7 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoLayout;
 			};
 			name = Release;
 		};
@@ -379,7 +379,7 @@
 				);
 				INFOPLIST_FILE = testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoLayoutTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Debug;
@@ -394,7 +394,7 @@
 				);
 				INFOPLIST_FILE = testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AutoLayoutTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Release;
@@ -402,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DFC34371B70DA3F00ACE054 /* Build configuration list for PBXProject "test" */ = {
+		9DFC34371B70DA3F00ACE054 /* Build configuration list for PBXProject "AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DFC345D1B70DA3F00ACE054 /* Debug */,
@@ -411,21 +411,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DFC345F1B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "test" */ = {
+		9DFC345F1B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DFC34601B70DA3F00ACE054 /* Debug */,
 				9DFC34611B70DA3F00ACE054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9DFC34621B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		9DFC34621B70DA3F00ACE054 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DFC34631B70DA3F00ACE054 /* Debug */,
 				9DFC34641B70DA3F00ACE054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
